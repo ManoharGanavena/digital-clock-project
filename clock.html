@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dual Digital Clocks</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            <div class="name">Indian Standard Time (IST)</div>
+            <div class="time" id="clock1">--:--:--</div>
+        </div>
+        <div class="clock">
+            <div class="name">Selected Country Time</div>
+            <div class="time" id="clock2">--:--:--</div>
+        </div>
+    </div>
+    <div class="drop-down-container">
+        <label for="country-select" id="label">Select a Country:</label><br>
+        <select name="" id="country-select">
+            <option value="America/New_York">United States of America</option>
+            <option value="Europe/London">United Kingdom</option>
+            <option value="Asia/Shanghai">China</option>
+            <option value="Asia/Tokyo">Japan</option>
+            <option value="Australia/Sydney">Australia</option>
+            <option value="America/Toronto">Canada</option>
+            <option value="Europe/Berlin">Germany</option>
+            <option value="Europe/Paris">France</option>
+            <option value="America/Sao_Paulo">Brazil</option>
+            <option value="Africa/Johannesburg">South Africa</option>
+            <option value="Europe/Rome">Italy</option>
+            <option value="Asia/Seoul">South Korea</option>
+            <option value="America/Mexico_City">Mexico</option>
+            <option value="Asia/Kolkata">India</option>
+        </select>
+    </div>
+</body>
+<script src="clock.js"></script>
+</html>
